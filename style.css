@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+    background-image: radial-gradient( #202020,#346622);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    /* background-color: rgb(200, 200, 253); */
+    background-color: orange;
+    padding: 2rem 4rem;
+    border-radius: 1em;
+}
+
+p{
+    font-weight: 600;
+    color: darkslategray;
+}
+
+input{
+    margin: .3em 0;
+    padding: .5em 1em;
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+.payment{
+    color: #000;
+    font-size: 1.2rem;
+}
